@@ -1,12 +1,12 @@
-let weather = {
-    apiKey: "1c31aadf495a50850b5eebef10ba447d",
-    fetchWeather: function(){
-        fetch("https://api.openweathermap.org/data/2.5/weather?q=mysore&appid=1c31aadf495a50850b5eebef10ba447d"
-        ).then((response) =>response.json()
-        ).then((data) => console.log(data));
-    },
-};
-// let weadther = {
+// let weather = {
+//     apiKey: "1c31aadf495a50850b5eebef10ba447d",
+//     fetchWeather: function(){
+//         fetch("https://api.openweathermap.org/data/2.5/weather?q=mysore&appid=1c31aadf495a50850b5eebef10ba447d"
+//         ).then((response) =>response.json()
+//         ).then((data) => console.log(data));
+//     },
+// };
+// // let weadther = {
 //     apiKey: "1c31aadf495a50850b5eebef10ba447d",
 //     fetchWeather: function (city) {
 //       fetch(
